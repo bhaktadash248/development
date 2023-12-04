@@ -3,15 +3,18 @@
 
 <head>
     <title>Guess the number puzzle</title>
-    <link href="./html-head/css/style.css"
+    <link href="./css/style.css" rel="stylesheet"/>
+    <script src="./js/index.js" defer></script>
 </head>
 
 <body>
+    <form>
+        <input type="number" id="get-number" value="" />
+        <input type="button" value="submit" id="validate-number" onclick="validateNumber()"/>
+    </form>
     <div>
-        <form>
-            <input type="number" id="get-number"/>
-            <input type="button" value="submit" id="validate-number"/>
-        </form>
+        <p id="guess-result"></p>
+        <p id="prev-guess"></p>
     </div>
 </body>
 
