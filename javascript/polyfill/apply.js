@@ -12,6 +12,7 @@ function fullname(city, state, country){
 Function.prototype.myapply = function(obj={}, args=[]){
     let randomProp = Math.random();
     obj[randomProp] = this; 
+
     let result = obj[randomProp](...args); 
     delete obj[randomProp]; 
     return result;

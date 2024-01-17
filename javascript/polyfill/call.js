@@ -8,8 +8,8 @@ let obj2 = {
     lastname: "Batchala",
 }
 
-function fullName(city) {
-    console.log(this.firstname + " " + this.lastname + " from " + city)
+function fullName(city, state) {
+    console.log(this.firstname + " " + this.lastname + " from " + city + " state " + state)
 }
 
 // fullName.call(obj2)
@@ -21,6 +21,6 @@ Function.prototype.myCall = function(context, ...args){
     context.fullName(...args)
 }
 
-fullName.myCall(obj, "Berhampur")
+fullName.myCall(obj, "Berhampur"," Odisha")
 
 
