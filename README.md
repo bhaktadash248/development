@@ -65,3 +65,16 @@ This means that micro-tasks, like promises and mutation observations, are given 
 **Understanding Task Starvation:**
 
 **Now, imagine this: if micro tasks keep popping up without allowing other tasks a chance to run, what happens next? Well, in this scenario, the Callback Queue won’t get an opportunity to execute its tasks. This situation is what we call the starvation of tasks in the Callback Queue.**
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+** How javascript workes**
+
+To execute a javascript code it needs a javascript runtime environment.
+Inside the javascript runtime environment we can see a javascript engint, APIs, call stack, memory heap, micro task queue, callback queue and so on..
+Inside the js engine the code moves with three different phases i.e parse, compilation and execuation.
+In the parsing phase it will assign tokens to each of the variable name, identifiers  and so on. i.e. var a = 10 then it will assign  token to var, token to a, etc. Then it will generate a abstract syntex tree**(AST)**.
+In the compalation phase the **AST** will interpetter the code and moves to the execuation phase mean while the compallier will try to optimise the code as much as it can then it ll move the code to the execuation phase.
+In the execuation phase memory heap will help to assign the memory and then after it will move the code to the call stack.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
