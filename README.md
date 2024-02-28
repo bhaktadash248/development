@@ -68,7 +68,7 @@ This means that micro-tasks, like promises and mutation observations, are given 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-** How javascript workes**
+**How javascript workes**
 
 To execute a javascript code it needs a javascript runtime environment.
 Inside the javascript runtime environment we can see a javascript engint, APIs, call stack, memory heap, micro task queue, callback queue and so on..
