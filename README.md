@@ -48,11 +48,11 @@ A.   The Ability of use function as value,
 
 There are two types of task queues in javascript.
 
-**Callback Task queue(MTQ)**
+**Callback Task queue(CTQ)**
 
 The Callback Queue, also known as the Task Queue, is where asynchronous tasks such as event handlers, setTimeout callbacks, and I/O operations are queued for execution. These tasks are typically non-promise related.
 
-**Micro Task queue(CTQ)**
+**Micro Task queue(MTQ)**
 
 The Micro Task Queue is a special queue that holds micro-tasks, which are small, short-lived tasks. Promises, mutation observations, and other similar asynchronous operations enqueue their callbacks into the Micro Task Queue.
 
