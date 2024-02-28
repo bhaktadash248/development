@@ -77,4 +77,7 @@ In the parsing phase it will assign tokens to each of the variable name, identif
 In the compalation phase the **AST** will interpetter the code and moves to the execuation phase mean while the compallier will try to optimise the code as much as it can then it ll move the code to the execuation phase.
 In the execuation phase memory heap will help to assign the memory and then after it will move the code to the call stack.
 
+![image](https://github.com/bhaktadash248/development/assets/13793720/ae79fb2b-6af6-40e1-9f8b-2d50ea26114d)
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
